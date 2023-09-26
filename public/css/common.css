@@ -116,7 +116,7 @@ body.off {position:fixed;width:100%; left:0; overflow: hidden;}
 .dim.up .popBox .con {position: relative; overflow-y: auto;-ms-overflow-style: none; scrollbar-width: none; padding-bottom: 20px;}
 .dim.up .popBox .con::-webkit-scrollbar {width:3px;}
 .dim.up .popBox .con::-webkit-scrollbar-thumb {background:#e8ebed; border-radius: 3px;}
-.dim.up .popBox .btn {position:absolute; bottom:0; left:0; padding:12px 16px; z-index: 2; background: #fff;}
+.dim.up .popBox .btn {position:absolute; bottom:0; left:0; padding:12px 16px; z-index: 2; background: #fff; margin:0; max-width:100%;}
 
 /* 취소 팝업 */
 .dim.cen .popBox .btn a {color: #72787f; background:#f7f8f9; margin-top: 8px;}
@@ -147,12 +147,12 @@ body.off {position:fixed;width:100%; left:0; overflow: hidden;}
 /* 리사이징 */
 @media screen and (max-width: 1024px){
     .pcBg .inner, .pcBg .bgImg {display:none;}
-    header, #wrap, .dim, .getResult .result_nav {margin:0 auto !important;}
+    header, #wrap, .dim, .getResult .result_nav, .terms .btn {margin:0 auto !important;}
 }
 
 @media screen and (max-width: 500px){
     .pcBg {display:none;}
-    header, #wrap, .dim, .getResult .result_nav {max-width:100% !important;}
+    header, #wrap, .dim, .getResult .result_nav, .terms .btn {max-width:100% !important;}
 }
 
 @media screen and (max-height: 920px){
