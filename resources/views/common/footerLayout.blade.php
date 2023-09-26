@@ -1,0 +1,1 @@
+<footer>Copyright © BMSTAGE. All Rights Reserved</footer>

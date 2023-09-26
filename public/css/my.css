@@ -1,0 +1,7 @@
+
+.my_index {background:#eef4fd;}
+.my_index ul {background:#fff; border-radius:24px 24px 0 0; box-shadow: 0 0 25px 0 rgba(65, 72, 255, 0.1); min-height:calc(100vh - 203px); padding:8px 16px;}
+.my_index ul li {margin: 20px 0; background:url(/images/common/arrowG_icon.png)no-repeat center right; background-size:24px; height: 44px;}
+.my_index ul li a {display: block; line-height:24px; font-size: 16px; font-weight: 600; padding:10px 0;}
+.my_index ul li:first-child {margin-top: 10px;}
+

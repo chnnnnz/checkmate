@@ -1,0 +1,23 @@
+
+/* 마이페이지 헤더 숨기기 */
+header .inner ul li a.logo {display: block;}
+header .inner .my {display: none !important;}
+
+/* 배경 컬러 */
+#wrap #contents {background:#eef4fd}
+
+.intro {padding:40px 16px 0; background:#eef4fd;}
+.intro .logo {width:245px;}
+.intro .logo img {width:100%}
+.intro ul {margin-top:40px;}
+.intro ul li {width:100%; height:180px; border-radius:26px; background:#fff url(/images/bg/intro_02.png)no-repeat right 20px center; background-size:132px auto}
+.intro ul li:first-child {background:#013994 url(/images/bg/intro_01.png)no-repeat right 20px center; background-size:132px auto; margin-bottom:16px}
+.intro ul li a {display: block; height:100%; padding:32px 0 0 28px; font-size: 18px; font-weight:500; color:#454c53}
+.intro ul li a span {display:block; padding-top:2px; font-size:25px; font-weight:700; color:#454c53; line-height:30px;}
+.intro ul li a span img {width:24px; display: inline-block; margin-left:4px; vertical-align: middle; position: relative; top:-1px}
+.intro ul li:first-child a, .intro ul li:first-child a span {color:#fff;}
+
+
+@media screen and (max-width: 315px){
+    .intro ul li {background-size:100px auto !important;}
+}

@@ -1,0 +1,175 @@
+
+/* 푸터 없애고 높이 조절 */
+footer {display: none;}
+#wrap #contents {min-height:calc(100vh - 44px);}
+
+/* 이용약관 */
+.terms {position: relative; padding:12px 16px 120px; min-height:calc(100vh - 44px);}
+.terms .btn {background:#fff; position: fixed; bottom:0; left:0; width:100%; padding:12px 16px; }
+.terms .btn a {display: block; height:56px; line-height:56px; text-align:center; color:#fff; font-size: 17px; font-weight: 600; border-radius: 18px; background:#013994;}
+.terms .top h2 {padding-bottom: 18px; font-size: 24px; font-weight: 600; position: relative; margin-bottom: 16px;}
+.terms .top h2::before {content:''; display: block; width:100%; height:3px; background:#eef4fd; position: absolute; bottom:0; left:0;}
+.terms .con p {font-size: 14px; font-weight: 400; line-height: 21px;}
+.terms .con > p {font-weight: 500;}
+.terms .termCon {padding-top: 32px;}
+.terms .termCon h3 {font-size: 18px; font-weight: 600;}
+.terms .termCon p.tit {padding-top: 12px; font-weight: 500; line-height: 1;}
+.terms .termCon p:not(.tit) {padding-top: 8px;}
+
+
+/* 로그인 */
+.login .conTop .logo {margin-bottom: 0;}
+.login .formLayout {background:#fff; border-radius:24px 24px 0 0; box-shadow: 0 0 25px 0 rgba(65, 72, 255, 0.1); min-height:calc(100vh - 215px); padding: 60px 16px 12px;}
+.login .formLayout .btnBox ul {display: flex; align-items: center; justify-content: center; max-width: 340px; margin:20px auto 60px}
+.login .formLayout .btnBox ul li {width:50%; height:19px; text-align: center; position: relative;}
+.login .formLayout .btnBox ul li:first-child::before {content:''; display: block; width:2px; height: 100%; background:#e8ebed; position: absolute; top:0; right:0;}
+.login .formLayout .btnBox ul li a {width: auto; display: inline-block; height: 100%; background: none; font-size: 16px; font-weight: 400; line-height: 19px; margin:0; color:#72787f}
+.login .btm {text-align: center;}
+.login .btm p {font-size: 14px; font-weight: 400; color:#9ea4aa;}
+.login .btm a {width:188px; height: 72px; line-height: 72px; font-size: 16px; font-weight: 600; color:#1b1d1f; margin:0 auto; text-align: center; background:url(/images/common/kakaoLogin.png)no-repeat center/cover;}
+
+
+/* 회원등록 */
+/* 이용약관 팝업 */
+#termPop .popBox {max-height:calc(100vh - 57px);}
+#termPop .con {max-height:calc(100vh - 172px);} 
+#termPop .top h2 {margin:0; padding:0;}
+#termPop .top h2::before {display: none;}
+#termPop .termCon:last-child {padding-bottom:20px;}
+/* 취소팝업 */
+
+
+/* 수거신청 */
+.getApply01 .conTop {padding-top: 24px;}
+.getApply01 .formLayout {background:#fff; border-radius:24px 24px 0 0; box-shadow: 0 0 25px 0 rgba(65, 72, 255, 0.1); min-height:calc(100vh - 215px); padding: 0 0 12px;}
+.getApply01 .checklist {text-align:center; padding:24px 16px; border-bottom:12px solid #f6f7f8}
+.getApply01 .checklist h2 {font-size: 20px; font-weight:600; padding-bottom:12px}
+.getApply01 .checklist .imgbox {width:100%; height:150px; background:#f7f8f9; margin:12px 0 8px; border-radius: 18px;}
+.getApply01 .checklist p {font-size: 17px; font-weight:400; color:#454c53; line-height:25px; position:relative; padding-bottom:36px}
+.getApply01 .checklist p::before {content:''; display: block; width:24px; height:24px; position:absolute; bottom:0; left:50%; transform: translateX(-50%); background:url(/images/common/down_icon.png)no-repeat center/cover;}
+.getApply01 .checklist p span {font-weight:600; color:#013994}
+.getApply01 .checklist p:last-child {padding:0;}
+.getApply01 .checklist p:last-child::before {display: none;}
+.getApply01 .formLayout > label {padding:24px 16px 0}
+.getApply01 .formLayout > label p {font-size: 14px; font-weight: 400; line-height: 21px; color:#72787f;}
+.getApply01 .formLayout > label a {cursor: default;}
+.getApply01 .formLayout > label a::before {display: none;}
+.getApply01 .formLayout > label span {display: block; padding-bottom: 6px; font-size: 18px; color:#1b1d1f; font-weight: 500;}
+.getApply01 .btnBox {padding:0 16px}
+
+.getApply02 .formLayout dl dd input[type="date"] {width:100%; border:0; border-bottom:1px solid #e8ebed; padding-bottom: 12px; font-size: 17px; font-weight: 600; color:#454c53;}
+.getApply02 input[type="date"]::-webkit-calendar-picker-indicator,
+.getApply02 input[type="date"]::-webkit-inner-spin-button {display: none; appearance: none;}
+.getApply02 input[type="date"]::-webkit-calendar-picker-indicator {color: rgba(0, 0, 0, 0);  opacity: 1; display: block; background: url('/images/common/calendar_icon.png') no-repeat center/cover; width: 24px; height: 24px; border-width: thin;}
+
+/* 수거 참고사항 팝업 */
+#messagePop .popBox {min-height:calc(100vh - 408px);}
+#messagePop .popBox .con textarea {border:1px solid #e8ebed; height:220px; padding:16px; width:100%; font-size: 16px; font-weight: 400; line-height: 22px; color:#454c53}
+#messagePop .popBox .con textarea::placeholder {color:#9ea4aa;}
+#messagePop .popBox .con > p.tatext {position: absolute; bottom:36px; right:16px; display: inline-block;  font-size: 16px; font-weight: 400; line-height: 22px;color:#c9cdd2;}
+#messagePop .popBox .con > p.tatext span {color:#c9cdd2}
+
+
+/* 키트 등록 */
+.kitApply .kitCon {text-align: center;}
+.kitApply .kitCon .swiper {padding-bottom: 18px;}
+.kitApply .kitCon .swiper-slide {position: relative;}
+.kitApply .kitCon .swiper-slide .img {width:100%; background:#f6f7f8; border-radius: 18px; height: 200px;}
+.kitApply .kitCon .swiper-slide p {position: absolute; bottom:16px; font-size: 14px; font-weight: 400; line-height: 21px; color:#1b1d1f; left:0; width:100%;}
+.kitApply .kitCon .swiper-pagination {bottom:0; height: 6px; display: flex; align-items: center; justify-content: center;}
+.kitApply .kitCon .swiper-pagination-bullet {width:6px; height: 6px; background:#c9cdd2; opacity: 1;}
+.kitApply .kitCon .swiper-pagination-bullet-active {background:#013994}
+.kitApply .kitName {margin:72px 0;}
+.kitApply .kitName input {text-align: center; font-size: 32px; font-weight: 700; color:#1b1d1f; line-height: 38px; padding-bottom: 8px;}
+.kitApply .kitName input::placeholder {text-align: center; color:#e8ebed; font-weight: 700; font-size: 32px; line-height: 38px;}
+.kitApply .kitName p {font-size: 14px; font-weight: 400;}
+.kitApply .kitName p:not(.error) {color:#9ea4aa; padding-top: 8px;}
+
+
+/* 반려동물 등록 */
+.aniRagis .formLayout dl.type_check dd div {display: flex; align-items: center; justify-content: space-between;}
+.aniRagis .formLayout dl.type_check dd span {position:relative; width:calc(50% - 4px);}
+.aniRagis .formLayout dl.type_check dd span input {position: absolute; top:0; left:0; opacity: 0;}
+.aniRagis .formLayout dl.type_check dd span label {display:block; width:100%; height:52px; line-height:52px; background:#f7f8f9; border:1px solid #f7f8f9; border-radius:15px; text-align:center; font-size: 17px; font-weight:600; color:#72787f;}
+.aniRagis .formLayout dl.type_check dd input[type="radio"]:checked + label {background:#eef4fd; bordeR:1px solid #013994; color:#013994;}
+.aniRagis .formLayout dl dd input[type='date'] {cursor:pointer; display: block; position: relative; width:100%; padding-bottom: 11px; border:0; border-bottom:1px solid #e8ebed !important; font-size: 17px; font-weight:600; color:#1b1d1f;}
+
+/* 날짜 인풋 달력아이콘, placeholder없애기 */
+.aniRagis input[type='date']::-webkit-calendar-picker-indicator {width: 100%; position: absolute; top:0; left:0; opacity: 0;cursor:pointer; }
+.aniRagis input[type='date']::before {content: attr(data-placeholder); width: 100%; color:#9ea4aa; font-weight: 400;}
+.aniRagis input[type='date']:focus::before, .aniRagis input[type='date']:valid::before {display: none;}
+
+.checkPop .popBox {min-height:calc(100vh - 428px)}
+.checkPop .popBox .con label {display: flex; align-items: center; justify-content: space-between; margin-bottom:28px; width: 100%; font-size: 18px; font-weight:500; color:#1b1d1f;}
+.checkPop .popBox .con label:last-child {margin:0;}
+.checkPop#kindCheck .popBox {max-height:calc(100vh - 100px);}
+.checkPop#kindCheck .popBox .con {max-height:calc(100vh - 246px);}
+
+
+/* 문진표 */
+.question {min-height:calc(100vh - 44px); position: relative; padding-bottom: 144px;}
+.question .conTop {padding-bottom: 20px;}
+.question .btnBox {position: absolute; bottom:0; left:0; width:100%; padding:12px 16px}
+.question .question_con {padding:0 16px}
+.question .question_con h2 {font-size: 20px; font-weight: 600; padding-bottom: 24px; line-height: 26px;}
+.question .question_con h2 span {font-size: 20px; font-weight: 600; color:#1b1d1f}
+.question .question_con h2 b {color:#013994; display: inline-block; border-bottom: 2px solid #013994; font-weight: 600;}
+.question .question_con label {display: flex; align-items: center; justify-content: space-between; width:100%; margin-bottom: 16px; font-size: 16px; font-weight: 500;}
+.question .question_load {position: relative; margin-bottom:32px; width:100%; heighT:2px; background:#eef4fd; border-radius: 1px;}
+.question .question_load::before {content:''; display: block; width:0; height: 100%; background:#013994; border-radius: 1px; transition: all .5s; }
+.question_01 .question_load.on::before {animation:width 1s linear; animation-fill-mode: forwards;}
+.question_02 .question_load::before {width:33.3%}
+.question_02 .question_load.on::before {animation:width2 1s linear; animation-fill-mode: forwards;}
+.question_03 .question_load::before {width:66.6%}
+.question_03 .question_load.on::before {animation:width3 1s linear; animation-fill-mode: forwards;}
+
+@keyframes width {
+    0% {width: 0;}
+    100% {width: 33.3%;}
+}
+@keyframes width2 {
+    0% {width: 33.3%;}
+    100% {width: 66.6%;}
+}
+@keyframes width3 {
+    0% {width: 66.6%;}
+    100% {width: 100%;}
+}
+
+.question_02 .question_con .con {display: flex; align-items: center; justify-content: space-between; position: relative; padding-bottom: 31px;}
+.question_02 .question_con .con::before {content:'구취가 없는 편이다'; display: block; font-size: 16px; font-weight:500; color:#1b1d1f; line-height:1; letter-spacing:-0.16px; position: absolute; bottom:0; left:0;}
+.question_02 .question_con .con::after {content:'구취가 심한 편이다'; display: block; font-size: 16px; font-weight:500; color:#1b1d1f; line-height:1; letter-spacing:-0.16px; position: absolute; bottom:0; right:0;}
+.question_02 .question_con label {display: inline-block; width:32px; height: 32px; margin:0;}
+
+
+/* 반려동물 수정 리스트 */
+.animodify_list .no_list {display: none; text-align:center; padding-top:24px;}
+.animodify_list .no_list p {font-size: 16px; font-weight: 600; color:#9ea4aa;}
+.animodify_list .regisBtn {padding:0 16px 28px; border-bottom:3px solid #f7f8f9; margin-bottom: 28px;}
+.animodify_list .regisBtn a {display: block; padding-left:68px; font-size:16px; font-weight:600; color:#013994; line-height:70px; width:100%; height:70px;  border-radius: 20px; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.04); border: solid 1px #f6f7f8; background:url(/images/common/plusB_icon.png)no-repeat left 16px center; background-size:32px; }
+.animodify_list .conBtm {padding:0 0 12px;}
+.animodify_list .list ul {padding:0 16px}
+.animodify_list .list ul li {width:100%; height:70px; margin-bottom: 8px; }
+.animodify_list .list ul li a {transition:border .3s; display: flex; align-items: center; position: relative; padding:9px 16px;  width:100%; height:100%; border-radius: 20px; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.04); border: solid 1px #f6f7f8;}
+.animodify_list .list ul li a::before {content:''; display: block; position:absolute; top:50%; right:16px; transform: translateY(-50%); width:32px; height:32px; background:url(/images/common/checkOn_icon.png)no-repeat center/cover; opacity: 0; visibility: hidden; transition: all .3s;}
+.animodify_list .list ul li.on a {border:1px solid #013994}
+.animodify_list .list ul li.on a::before {opacity: 1; visibility: visible;}
+.animodify_list .list ul li a .ani {width:52px; margin-right:16px;}
+.animodify_list .list ul li a .ani img {width:100%;}
+.animodify_list .list ul li a p.name {font-size: 17px; font-weight: 600; color:#1b1d1f;}
+.animodify_list .list ul li a p.birth {font-size: 14px; font-weight: 500; line-height: 1; padding-top: 8px; color:#72787f;}
+.animodify_list .pageNation {margin:30px 0 0;}
+.animodify_list .pageNation ol {display: flex; width:100%; align-items: center; justify-content: center;}
+.animodify_list .pageNation ol li {width:28px; height:28px; margin:0 10px; }
+.animodify_list .pageNation ol li a {display: block; width:100%; height:100%; text-align: center; line-height: 29px; font-size:16px; font-weight: 400; color:#72787f; border-radius: 50%; ;}
+.animodify_list .pageNation ol li a span {color:#72787f; position: relative; left:-1px;}
+.animodify_list .pageNation ol li a.active {background:#013994; color:#fff;}
+.animodify_list .pageNation ol li a.active span {color:#fff;}
+.animodify_list .pageNation ol li a.prev {width:24px; height:28px; background:url(/images/common/arrowLG_icon.png)no-repeat center/cover; transform: rotate(-180deg); cursor:default}
+.animodify_list .pageNation ol li a.next {width:24px; height:28px; background:url(/images/common/arrowLG_icon.png)no-repeat center/cover; cursor:default}
+.animodify_list .pageNation ol li a.prev.on {background:url(/images/common/arrowG_icon.png)no-repeat center/cover; transform: rotate(-180deg); cursor:pointer}
+.animodify_list .pageNation ol li a.next.on {background:url(/images/common/arrowG_icon.png)no-repeat center/cover; cursor:pointer}
+.animodify_list .btn {padding:52px 16px 0;}
+.animodify_list .btn a, .animodify_list .btn button {width:100%; height:56px; line-height:56px; text-align: center; border-radius:18px; font-size:17px; font-weight:600; color:#72787f; border:0; background:#f7f8f9}
+.animodify_list .btn button {background:#e8ebed;color:#fff;  margin-bottom: 8px; cursor: default;}
+.animodify_list .btn button.on {background:#013994; cursor: pointer;}

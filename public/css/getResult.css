@@ -1,0 +1,203 @@
+
+/* 푸터 없애고 높이 조절 */
+footer {display: none;}
+#wrap #contents {min-height:calc(100vh - 44px); background:#eef4fd}
+
+.getResult {padding-top: 44px;}
+.getResult .result_nav {position: fixed; top:44px; left:0; right:0; max-width:496px; margin:0 0 0 50.8%; background:#fff; z-index: 10;}
+.getResult .result_nav ul {display: flex; align-items: center;}
+.getResult .result_nav ul li {width: 25%; text-align: center; cursor: pointer;}
+.getResult .result_nav ul li span {display: inline-block; font-size: 18px; font-weight: 400; line-height: 44px; position: relative; transition: color .2s;}
+.getResult .result_nav ul li.act span {color:#013994; font-weight: 700;}
+.getResult .result_nav ul li.act span::before {content:''; display: block; width:100%; height:3px; background: #013994; position: absolute; bottom:0; left:0;}
+
+.getResult .ani {padding-top: 32px;}
+.getResult .ani .ani_img {width:120px; margin:0 auto 12px;}
+.getResult .ani .ani_img img {width:100%;}
+.getResult .ani .ani_name {text-align: center;}
+.getResult .ani .ani_name p {font-size: 14px; font-weight: 500; line-height: 1;}
+.getResult .ani .ani_name p.name {color:#1b1d1f; font-size: 24px; font-weight: 700; margin-bottom: 10px;}
+.getResult .ani .ani_name p span {color:#9ea4aa; line-height: 18px; padding:0 12px; width:50%; display: inline-block; vertical-align:top; text-align: left;}
+.getResult .ani .ani_name p span:first-child {text-align: right; border-right:1px solid #9ea4aa;}
+.getResult .ani .ani_name p span img {width:18px; display: inline-block; margin-right:4px;}
+.getResult .ani .ani_info {padding:16px; border-radius:20px; background:#fff; width:100%; margin-top: 24px;}
+.getResult .ani .ani_info dl {display: flex; align-items: center; margin-top: 16px;font-size: 17px; }
+.getResult .ani .ani_info dl:first-child {margin:0;}
+.getResult .ani .ani_info dl dt {font-weight: 400;color:#9ea4aa; width:111px}
+.getResult .ani .ani_info dl dd {font-weight: 600; color:#454c53;}
+
+.getResult .conMid {background:#fff; border-radius:24px 24px 0 0; box-shadow: 0 0 25px 0 rgba(65, 72, 255, 0.1);}
+.getResult .conMid > div > div {padding:0 16px;}
+.getResult .line {width:100%; margin:48px 0 40px; height: 1px; background:#e8ebed;}
+.getResult .bbTit {font-size: 24px; font-weight: 600; line-height: 30px;}
+.getResult .bbTit span {display: inline-block; position: relative; z-index: 1;}
+.getResult .bbTit span::before {content:''; display: block; width:100%; height:12px; background:#ffde74; position: absolute; bottom:0; left:0; z-index: -1;}
+.getResult .bTit {padding-top: 40px; font-size: 22px; font-weight: 700;}
+.getResult .sTit {font-size: 20px; font-weight: 700;}
+.getResult .explain {background:#f6f7f8; border-radius: 20px; padding:24px 16px;}
+.getResult .explain h2 {font-size: 22px; font-weight: 700; color:#1b1d1f; padding-bottom: 4px;}
+.getResult .explain h2 span {color:#013994}
+.getResult .explain p {font-size:15px; font-weight: 400; line-height: 23px; padding-top: 16px;}
+.getResult .explain p span {font-size: 11px; font-weight: 400; display: inline-block; padding-right: 8px;}
+.getResult .tip {padding:40px 0 0; border-top: 1px solid #e8ebed;}
+.getResult .tip h2 {font-size: 28px; font-weight: 700;}
+.getResult .tip h2 p {margin-bottom: 4px; font-size: 18px; font-weight: 600;}
+.getResult .tip h2 span {display: inline-block; color: #013994; padding-bottom: 4px; position: relative; z-index: 1;}
+.getResult .tip h2 span::before {content:''; display: block; width:100%; height:12px; background:#b2deff; position: absolute; bottom:0; left:0; z-index: -1;}
+.getResult .tip .tipCon p {padding-top: 16px; font-size: 15px; font-weight: 400; line-height: 23px; color:#454c53;}
+.getResult .tip .tipCon p.tipNum {font-size: 20px; line-height: 24px; font-weight: 600; padding-top: 28px; color:#1b1d1f}
+.getResult .tip .tipCon p.tipNum span {position:relative; top:-2px;display: inline-block; margin-right: 8px; width:24px; height:24px; background:#e8ebed; border-radius:4px; text-align: center; line-height: 24px; font-size: 14px; font-weight: 500; color:#013994;}
+.getResult .upDown {display:block; font-size: 16px; font-weight: 600; line-height: 24px; color:#013994}
+.getResult .upDown img {width:24px; display: inline-block; padding-left:4px; position: relative; top:1px;}
+.getResult p.step {width:58px; height:24px; border-radius:12px; text-align: center; line-height: 24px; font-size:15px !important; font-weight: 400 !important; }
+.getResult p.step.danger {color:#790c64 !important; border:1px solid #790c64;}
+.getResult p.step.good {color:#013994 !important; border:1px solid #013994}
+.getResult p.step.attract {color:#4caf50 !important; border:1px solid #4caf50;}
+.getResult p.step.care {color:#d32f2f !important; border:1px solid #d32f2f;}
+.getResult #resultAll .all_01 .bTit {padding-top: 32px;}
+.getResult #resultAll .all_01 .ageBox {display: flex; align-items: center; justify-content:space-between; margin-top: 24px;}
+.getResult #resultAll .all_01 .ageBox > div {width:calc(50% - 8px); background:#f6f7f8; border-radius: 20px; padding:16px; min-height: 119px;}
+.getResult #resultAll .all_01 .ageBox > div:first-child {margin-right:16px;}
+.getResult #resultAll .all_01 .ageBox > div p:first-child {font-size: 14px; font-weight:400; color:#72787f; padding-bottom: 4px;}
+.getResult #resultAll .all_01 .ageBox > div p.age {font-size: 16px; font-weight: 600; color:#72787f; display: inline-block;}
+.getResult #resultAll .all_01 .ageBox > div p.age span {font-size: 32px; font-weight: 700; color:#72787f; position: relative; top:1px}
+.getResult #resultAll .all_01 .ageBox > div p.age span:last-child {padding-left:4px; display: inline-block;}
+.getResult #resultAll .all_01 .ageBox > div.tooth p.age, .getResult #resultAll .all_01 .ageBox > div.tooth p.age span {color:#1b1d1f}
+.getResult #resultAll .all_01 .ageBox > div.tooth p.age {position: relative; padding-bottom: 4px; z-index: 1;}
+.getResult #resultAll .all_01 .ageBox > div.tooth p.age::before {content:''; display: block; width:100%; height:12px; background:#ffde74; position: absolute; bottom:0; left:0; z-index: -1;}
+.getResult #resultAll .all_01 .ageBox > div.tooth p.upDown {margin-top: 10px;}
+.getResult #resultAll .all_01 .score {width:100%; padding:24px 16px; border-radius:20px; box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1); margin-top: 24px;}
+.getResult #resultAll .all_01 .score ul li {margin-top: 20px; display: flex; align-items: center; position: relative; width:100%;}
+.getResult #resultAll .all_01 .score ul li .img {width:60px; margin-right:24px}
+.getResult #resultAll .all_01 .score ul li .img img {width:100%;}
+.getResult #resultAll .all_01 .score ul li p {font-size: 18px; font-weight: 600; color:#454c53;}
+.getResult #resultAll .all_01 .score ul li p span {padding-bottom: 4px;}
+.getResult #resultAll .all_01 .score ul li p.step {position: absolute; right:0}
+
+.getResult #resultAll .all_02 {margin: 40px 0 0; border-top: 12px solid #f6f7f8;border-bottom: 12px solid #f6f7f8; padding:40px 16px;}
+.getResult #resultAll .all_02 .rangeInfo {margin:24px 0 0; display: flex; align-items: center; padding-bottom: 8px;}
+.getResult #resultAll .all_02 .rangeInfo p {font-size: 15px; font-weight: 500; color:#454c53; }
+.getResult #resultAll .all_02 .rangeInfo p span {display:inline-block; width:65px;  height:16px; margin-right:10px; vertical-align: middle; position: relative; top:-1px}
+.getResult #resultAll .all_02 .rangeInfo p:first-child {margin-right:20px;}
+.getResult #resultAll .all_02 .rangeInfo p:first-child span {background:#eef4fd; border-right:1px dashed #013994; border-left:1px dashed #013994;}
+.getResult #resultAll .all_02 .rangeInfo p:last-child span {background:#013994}
+.getResult #resultAll .all_02 .toothR {margin-top: 24px; padding:24px 16px; border-radius: 20px; box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);}
+.getResult #resultAll .all_02 .toothR > p {font-size: 20px; font-weight: 700; padding-bottom: 4px; line-height: 22px;}
+.getResult #resultAll .all_02 .toothR > p span {color:#013994; border-bottom: 2px solid #013994; display: inline-block;}
+.getResult #resultAll .all_02 .toothR .step.good {color:#4caf50 !important; border-color:#4caf50}
+.getResult #resultAll .all_02 .toothR ul li {padding:28px 0; border-bottom: 1px solid #e8ebed;}
+.getResult #resultAll .all_02 .toothR ul li:last-child {padding-bottom: 0; border:0;}
+.getResult #resultAll .all_02 .toothR ul li .toothName {margin:8px 0 12px;}
+.getResult #resultAll .all_02 .toothR ul li .toothName p {font-size: 18px; font-weight: 600; color:#454c53; line-height: 20px;}
+.getResult #resultAll .all_02 .toothR ul li .toothName p span {display: block; font-size: 14px; font-weight: 400;color:#9ea4aa; padding-bottom: 4px;}
+.getResult #resultAll .all_02 .toothR ul li .toothName p a {display: inline-block; width: 20px; position: relative; top:-2px; margin-left:4px;}
+.getResult #resultAll .all_02 .toothR ul li .toothName p a img {width: 100%;}
+
+.getResult .toothR ul li .rangeBox {padding: 20px 0; position: relative;}
+.getResult .toothR ul li .rangeBox .num {display: flex; align-items: center; justify-content: space-between; width:calc(100% + 20px); position: absolute; bottom:0; left:-10.5px;}
+.getResult .toothR ul li .rangeBox .num span {font-size: 12px; font-weight: 400; color:#9ea4aa; text-align: center; line-height: 18px; width:23px}
+.getResult .toothR ul li .rangeBox .num span.act {color:#1b1d1f}
+.getResult .toothR ul li .rangeBox .rod {display:block; width:100%; height:16px; position: relative; background:#f6f7f8; border-radius: 4px; padding:0}
+.getResult .toothR ul li .rangeBox .range {padding:0; display: block; position: absolute; top:20px; background:#eef4fd; border-right:1px dashed #013994; border-left:1px dashed #013994; height:16px}
+.getResult .toothR ul li .rangeBox .loca {padding:20px 6px 0;background:url(/images/common/down_icon.png)no-repeat center top; background-size:20px; display: inline-block; position: absolute; top:0}
+.getResult .toothR ul li .rangeBox .loca span { display: block; width:8px; height:16px; background:#013994;}
+
+.getResult .res01:not(.r03_01) {padding: 40px 16px !important; border-bottom: 12px solid #f6f7f8;}
+.getResult .res01 .bbTit {margin-bottom: 32px;}
+.getResult .res01 .bTit {padding: 0 0 24px}
+.getResult .res01 .rbox {padding:24px 16px; border-radius: 20px; box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1); margin-bottom: 24px;}
+.getResult .res01 .rbox > p {font-size: 20px; font-weight: 600; color:#454c53; margin-bottom: 20px;}
+.getResult .res01 .rbox > p a {display: inline-block; width: 20px; position: relative; margin-left:4px;}
+.getResult .res01 .rbox > p a img {width: 100%;}
+.getResult .res01 .rangeBox {padding-top: 38px; position: relative;}
+.getResult .res01 .rod {display: flex; justify-content: space-between; }
+.getResult .res01 .rod span {display: block; height:4px;}
+.getResult .res01 .rangeBox .rod span.good {background:#aad4f8;}
+.getResult .res01 .rangeBox .rod span.attract {background:#b6efb8}
+.getResult .res01 .rangeBox .rod span.care {background:#ffadae;}
+.getResult .res01 .rangeBox .rod span.danger {background:#c2aaf8}
+.getResult .res01 .num {display: flex; align-items: center; justify-content: space-between; width:calc(100% + 20px); position: relative; left:-10.5px; padding-top: 4px;}
+.getResult .res01 .num span {font-size: 12px; font-weight: 400; color:#9ea4aa; text-align: center; line-height: 18px; width:23px}
+.getResult .res01 .loca {display: flex; flex-direction: column; align-items: center; width:42px; position: absolute; top:0;}
+.getResult .res01 .loca .dot {width:12px; height: 12px; background:#013994; border-radius: 50%; margin:4px auto 0; display: block;}
+.getResult .res01 .loca span:not(.dot) {width:100%; height:30px; font-size: 14px; font-weight: 500; color: #fff; background:url(/images/common/range_icon.png)no-repeat center top; background-size:42px; display: block; text-align: center; line-height: 26px;}
+.getResult .res01 .rangeInfo {bordeR:1px solid #e8ebed; border-radius:10px; padding:16px; text-align: center; margin-top:32px ;}
+.getResult .res01 .rangeInfo h3 {font-size: 32px; font-weight: 700; color:#1b1d1f; padding:0 2px; display: inline-block; position: relative; line-height: 38px; margin-bottom: 16px; z-index: 1;}
+.getResult .res01 .rangeInfo h3::before {content:''; display: block; width:100%; height:12px; position: absolute; bottom:0; left:0; z-index: -1;}
+.getResult .res01 .rangeInfo h3.attract::before {background:#b6efb8}
+.getResult .res01 .rangeInfo h3.good::before {background:#aad4f7}
+.getResult .res01 .rangeInfo h3.care::before {background:#ffadae}
+.getResult .res01 .rangeInfo h3.danger::before {background:#c2aaf8}
+.getResult .res01 .rangeInfo p {font-size: 15px; font-weight: 400; color:#454c53; line-height: 23px;}
+
+/* 위치 */
+.getResult .toothR ul li .rangeBox .range {left:20%; width:20%;}
+.getResult .toothR ul li .rangeBox .loca {left:calc(30% - 10px);}
+
+.getResult .toothR ul li.aggre .rangeBox .range {border-left:0; border-radius:4px 0 0 4px; width:50%; left:0;}
+.getResult .toothR ul li.aggre .rangeBox .loca {left:calc(80% - 10px);}
+
+.getResult .toothR ul li.salmo .rangeBox .range {width:20%; left:70%;}
+.getResult .toothR ul li.salmo .rangeBox .loca {left:calc(50% - 10px);}
+
+.getResult .res01 .rangeBox.perio .rod span.good {width:42.2%;}
+.getResult .res01 .rangeBox.perio .rod span.attract {width:24.2%;}
+.getResult .res01 .rangeBox.perio .rod span.care {width:13.9%;}
+.getResult .res01 .rangeBox.perio .rod span.danger {width:18%;}
+
+.getResult .res01 .rangeBox.breath .loca {left:calc(89% - 22px)}
+
+.getResult .res01 .rangeBox.breath .rod span.good {width:51.8%;}
+.getResult .res01 .rangeBox.breath .rod span.attract {width:24.2%;}
+.getResult .res01 .rangeBox.breath .rod span.care {width:22.9%;}
+
+.getResult .res01 .rangeBox.perio .loca {left:calc(55% - 22px)}
+/* 위치 */
+
+.getResult .res02 {padding:0 16px 40px !important;}
+.getResult .res02 .imgSlide {width:calc(100% + 16px); margin: 24px 0;}
+.getResult .res02 .imgSlide .swiper-slide {border:1px solid #e8ebed; border-radius: 20px; padding:12px;}
+.getResult .res02 .imgSlide .swiper-slide .img {width:100%; height:116px; background:#f6f7f8; border-radius: 10px; margin-bottom: 16px;}
+.getResult .res02 .imgSlide .swiper-slide p {font-size: 18px; font-weight: 600; color:#454c53; text-align: center;}
+
+.getResult .res03 {border-bottom: 12px solid #f6f7f8; padding-bottom: 40px !important;}
+.getResult .res01.r03_01 {padding:40px 16px 0;}
+.getResult .r03_box.rbox {margin:0;}
+.getResult .rangeBox.r03 {padding:0;}
+.getResult .rangeBox.r03 ul {display: flex; align-items: center; justify-content: space-between;}
+.getResult .rangeBox.r03 ul li {width:calc(33.3% - 7.33px); background:#f6f7f8; border-radius: 10px; padding:14px 0 12px; text-align: center; font-size: 16px; font-weight: 600; color:#454c53;}
+.getResult .rangeBox.r03 ul li p {margin-bottom: 15px;}
+.getResult .rangeBox.r03 ul li span {display: inline-block; padding:0 16px; font-size: 15px; line-height: 24px; border:1px solid #c9cdd2; border-radius:12px; color:#72787f; margin:0 auto;}
+.getResult .rangeBox.r03 ul li span.detec {color:#d32f2f; border-color:#d32f2f;}
+
+.getResult .res04 {background:#f6f7f8; border-radius:20px; padding:24px 16px !important; width:calc(100% - 32px); margin:24px auto 0;}
+.getResult .res04 > span {display: inline-block; padding:0 16px; font-size: 15px; line-height: 24px; border:1px solid #c9cdd2; border-radius:12px; color:#72787f; margin:0 auto;}
+.getResult .res04 > span.detec {color:#d32f2f; border-color:#d32f2f;}
+.getResult .res04 p {font-size: 15px; font-weight: 400; line-height: 23px; color:#454c53;}
+.getResult .res04 .res04Btit {margin-top: 12px; font-size: 22px; font-weight: 700; line-height: 1; color:#1b1d1f;}
+.getResult .res04 .res04Btit span {display: block; font-size: 14px; font-weight: 500; color:#9ea4aa; padding-bottom: 4px; line-height: 1;}
+.getResult .res04 .res04Stit {font-size: 17px; font-weight: 600; color:#013994; margin:20px 0 8px;}
+
+.getResult #result_03 {padding-bottom: 60px;}
+
+.dim.cell .popBox .top {padding-bottom: 8px; align-items: flex-start;}
+.dim.cell .popBox .top h2 {line-height: 26px;}
+.dim.cell .popBox .con {padding-bottom: 0; }
+.dim.cell .popBox .con p {font-size: 16px; font-weight: 400; color: #9ea4aa;}
+.dim.cell .popBox .con .img {max-width:260px; margin:24px auto 12px ;}
+.dim.cell .popBox .con .img img {width: 100%;}
+
+.dim.res .popBox {padding-bottom: 108px;}
+.dim.res .popBox .top {padding-bottom: 0}
+.dim.res .popBox ul li {margin-top: 28px; display: flex; align-items: center; justify-content: space-between}
+.dim.res .popBox ul li p {font-size: 18px; font-weight: 500; color:#1b1d1f;}
+.dim.res .popBox ul li p span {display: block; padding-top: 6px; font-size: 14px; font-weight: 400; color:#72787f;}
+.dim.res .popBox ul li .color {width:32px; height:32px; border-radius: 50%;}
+.dim.res .popBox ul li .color.good {background:#aad4f8;}
+.dim.res .popBox ul li .color.attract {background:#b6efb8;}
+.dim.res .popBox ul li .color.care {background:#ffadae;}
+.dim.res .popBox ul li .color.danger {background:#c2aaf8}
+.dim.res .popBox ul li .color.detec {background:#d32f2f;}
+.dim.res .popBox ul li .color.noneDetec {background:#c9cdd2}
+.dim.res .popBox > p {padding:20px 0 0; font-size: 16px; font-weight:400; line-height: 22px; color:#9ea4aa;}
+.dim.res .popBox > p span {color:#9ea4aa; font-weight: 600;}

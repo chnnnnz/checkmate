@@ -1,0 +1,32 @@
+
+/* 마이페이지 헤더 숨기기 */
+header .inner ul li a.logo {display: block;}
+header .inner .my {display: none !important;}
+
+.kitList_wrap {background:#eef4fd;}
+.kitList_wrap .kitList {background:#fff; border-radius:24px 24px 0 0; box-shadow: 0 0 25px 0 rgba(65, 72, 255, 0.1); min-height:calc(100vh - 215px)}
+.kitList_wrap .kitList .no_list {padding-top:60px; text-align:center; display: none;}
+.kitList_wrap .kitList .no_list a {display: inline-block; padding-top:44px; font-size:16px; font-weight:600; line-height:22px; color:#013994; background:url(/images/common/plusB_icon.png)no-repeat top center; background-size:32px}
+/* .kitList_wrap .kitList ul {display: none;} */
+.kitList_wrap .kitList ul li {padding:28px 0 62px; position: relative;}
+.kitList_wrap .kitList ul li::before {content:''; display: block; width:calc(100% - 32px); height:3px; background:#eef4fd; position: absolute; top:0; left:16px;}
+.kitList_wrap .kitList ul li:first-child::before {display: none;}
+.kitList_wrap .kitList ul li .top {position: relative; display: flex; align-items: center; padding:0 16px 20px;}
+.kitList_wrap .kitList ul li .top a.ani_modify {display: block; width:24px; position: absolute; top:0; right:16px;}
+.kitList_wrap .kitList ul li .top a.ani_modify img {width:100%;}
+.kitList_wrap .kitList ul li .top .ani {width:60px; margin-right:12px;}
+.kitList_wrap .kitList ul li .top .ani img {width:100%;}
+.kitList_wrap .kitList ul li .top .ani_name .name {font-size: 17px; font-weight:600; padding-bottom:8px;}
+.kitList_wrap .kitList ul li .top .ani_name .birth {font-size: 14px; font-weight:500; color:#72787f; line-height:24px; padding-left:32px; background:url(/images/common/heart_icon.png)no-repeat center left; background-size:24px}
+.kitList_wrap .kitList ul li .swiper-wrapper {transform: translate3d(16px, 0px, 0px);}
+.kitList_wrap .kitList ul li .swiper-slide {margin-right:8px; background:#fff;box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.04); border: solid 1px #f6f7f8; border-radius:20px; width:160px; max-width:160px; min-width:160px; height:222px; min-height:222px; max-height:222px}
+.kitList_wrap .kitList ul li .swiper-slide.newKitBtn a {display: table; width:100%; height:100%;min-height:100%; max-height:100%;  text-align: center;}
+.kitList_wrap .kitList ul li .swiper-slide.newKitBtn a p {display:table-cell; vertical-align:middle; font-size: 16px; font-weight:600; color:#454c53; line-height:22px; padding-top:44px; background:url(/images/common/plusG_icon.png)no-repeat top 69px center; background-size:32px;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap {width:100%; height:100%; position:relative; background:url(/images/common/dental_logoG.png)no-repeat top 24px left 16px; background-size:95px;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap > a {position: absolute; bottom:0; left:0; width:100%; background:#fff; color:#72787f; display: block; text-align: center; height:48px; line-height:48px; font-size:14px; font-weight:500; border-radius:0 0 20px 20px;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap > a.blue {background:#013994; color:#fff;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap > a.none {cursor: default;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap .failed {font-size:12px; font-weight:400;color:#d32f2f; padding:8px 0 8px 16px; min-height:31px; line-height: 15px;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap .kitNum {font-size: 17px; font-weight:600; color:#454c53; padding:72px 0 0 16px;}
+.kitList_wrap .kitList ul li .swiper-slide .kit_wrap .kitDate span {font-size: 12px; font-weight: 400; color:#454c53; display: block; padding-bottom: 8px; padding-left:16px;}
+.kitList_wrap .kitList li.no_list {display: block; padding: 28px 0 52px;}
