@@ -15,7 +15,7 @@
                 </dd>
             </dl>
             <dl class="type_check">
-                <dt>유형</dt>
+                <dt>유형 </dt>
                 <dd>
                     <div>
                         <span><input type="radio" name="typeCheck" id="ragi_dog" checked><label for="ragi_dog">강아지</label></span>
